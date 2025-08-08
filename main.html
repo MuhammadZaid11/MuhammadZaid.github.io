@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Zaid — Python Developer & Data Engineer</title>
+  <meta name="description" content="Portfolio of Muhammad Zaid — Python Developer & Cloud Data Engineering student. Projects, services, and contact." />
+  <style>
+    /* Simple, clean single-file CSS. Modify as you like. */
+    :root{--accent:#0b5ed7;--bg:#f7fafc;--card:#ffffff;--muted:#6b7280;--radius:14px}
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0;background:linear-gradient(180deg,var(--bg),#ffffff);color:#0f172a}
+    .container{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:26px}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:24px}
+    /* Left column */
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,15,22,0.06)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .skill{padding:8px 10px;border-radius:999px;background:#eef2ff;font-size:13px}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .project-card{background:#fbfdff;padding:12px;border-radius:10px;border:1px solid #eef2f6}
+    .project-card h4{margin:0 0 6px;font-size:15px}
+    .project-card p{margin:0;color:var(--muted);font-size:13px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    /* Right column */
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    .contact-item{display:flex;gap:10px;align-items:center}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:24px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* Responsive */
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.projects{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">MZ</div>
+      <div>
+        <h1>Muhammad Zaid</h1>
+        <p class="lead">Python Developer & aspiring Cloud Data Engineer — I build clean data pipelines, automate workflows, and turn raw data into insights.</p>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <a class="btn" href="#contact">Hire Me</a>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- LEFT COLUMN -->
+      <div>
+        <section class="card">
+          <h3>About Me</h3>
+          <p class="small">I am a detail-oriented Python developer learning Cloud Data Engineering at SMIT. I focus on data cleaning, analysis, automation (Python, Pandas, NumPy), and building reproducible workflows.</p>
+          <div style="margin-top:12px">
+            <strong>Highlights</strong>
+            <ul style="margin:8px 0 0 18px;color:var(--muted)">
+              <li>Python: scripting, automation, data processing</li>
+              <li>Pandas & NumPy for data cleaning & transformation</li>
+              <li>SQL basics, Git & GitHub, GitHub Pages</li>
+              <li>Comfortable learning cloud tools and deploying projects</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h3>Skills</h3>
+          <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Pandas</span>
+            <span class="skill">NumPy</span>
+            <span class="skill">Data Cleaning</span>
+            <span class="skill">Data Visualization</span>
+            <span class="skill">Git & GitHub</span>
+            <span class="skill">SQL (basic)</span>
+            <span class="skill">Linux</span>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h3>Selected Projects</h3>
+          <div class="projects">
+            <div class="project-card">
+              <h4>Sales Data Cleaner</h4>
+              <p>Python + Pandas script that cleans messy sales CSVs, handles missing values, and outputs analysis-ready tables.</p>
+              <p class="small" style="margin-top:8px">Tools: Python, Pandas, CSV</p>
+            </div>
+
+            <div class="project-card">
+              <h4>Student Marks Analyzer</h4>
+              <p>A small app that computes grade distributions, mean/median/mode, and generates charts for easy reporting.</p>
+              <p class="small" style="margin-top:8px">Tools: Python, Pandas, Matplotlib</p>
+            </div>
+
+            <!-- Add more project-card blocks as needed -->
+          </div>
+          <div style="margin-top:12px">
+            <a href="https://github.com/YOUR_GITHUB" target="_blank">View more on GitHub →</a>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h3>Services I Offer</h3>
+          <ul style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>Data cleaning and preprocessing (CSV, Excel)</li>
+            <li>Data analysis & visualizations</li>
+            <li>Python scripting & automation</li>
+            <li>Simple ETL scripts and reproducible pipelines</li>
+          </ul>
+          <div style="margin-top:12px">
+            <a class="btn" href="#contact">Request a Quote</a>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <aside>
+        <div class="card">
+          <h3>Contact</h3>
+          <div class="contact-list">
+            <div class="contact-item"><strong>Email:</strong><div class="small" style="margin-left:6px">zaid.anwer.dev@example.com</div></div>
+            <div class="contact-item"><strong>Location:</strong><div class="small" style="margin-left:6px">Pakistan</div></div>
+            <div class="contact-item"><strong>LinkedIn:</strong><div class="small" style="margin-left:6px"><a href="YOUR_LINKEDIN" target="_blank">www.linkedin.com/in/mahammad-zaid-9363bb377</a></div></div>
+            <div class="contact-item"><strong>Fiverr:</strong><div class="small" style="margin-left:6px"><a href="YOUR_FIVERR" target="_blank">Fiverr</a></div></div>
+            <div class="contact-item"><strong>Upwork:</strong><div class="small" style="margin-left:6px"><a href="YOUR_UPWORK" target="_blank">Upwork</a></div></div>
+            <div class="contact-item"><strong>GitHub:</strong><div class="small" style="margin-left:6px"><a href="https://github.com/YOUR_GITHUB" target="_blank">github.com/YOUR_GITHUB</a></div></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px" id="contact">
+          <h3>Quick Message</h3>
+          <p class="small">Send a direct message — it opens your email client.</p>
+          <p style="margin:10px 0"><a class="btn" href="mailto:YOUR_EMAIL@example.com?subject=Project%20Inquiry">Email Me</a></p>
+          <p class="small">Or copy this template when contacting me:</p>
+          <textarea style="width:100%;height:120px;margin-top:8px;padding:10px;border-radius:8px;border:1px solid #eef2f6">Hi Zaid,%0A%0AI'd like to discuss a project: [brief description]%0ADeadline: [date]%0ABudget: [budget]%0A%0AThanks,</textarea>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3>Resume (Quick)</h3>
+          <p class="small">SMIT — Cloud Data Engineering (in progress)</p>
+          <p class="small">Skills: Python, Pandas, NumPy, Git, SQL</p>
+          <p style="margin-top:8px"><a href="#" class="small">Download full resume (add link)</a></p>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ by Muhammad Zaid • <span class="small">Last updated: Aug 08, 2025</span></p>
+    </footer>
+  </div>
+
+  <!-- Small helper script to auto-fill initials in avatar from name (optional) -->
+  <script>
+    (function(){
+      try{
+        const name = 'Muhammad Zaid'.trim();
+        const initials = name.split(' ').map(p=>p[0]).slice(0,2).join('').toUpperCase();
+        document.querySelector('.avatar').textContent = initials;
+      }catch(e){/*ignore*/}
+    })();
+  </script>
+</body>
+</html>
